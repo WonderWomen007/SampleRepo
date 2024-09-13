@@ -10,7 +10,6 @@ public class Controller {
     public ResponseEntity<String> getData(){
         System.out.println("test endpoint");
         return new ResponseEntity<>("Hello", HttpStatus.OK);
-
     }
 
 }
