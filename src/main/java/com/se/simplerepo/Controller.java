@@ -9,6 +9,7 @@ public class Controller {
 
     @GetMapping("/getdata")
     public ResponseEntity getData(){
+        System.out.println("test endpoint");
         return new ResponseEntity("Hello", HttpStatus.OK);
 
     }
